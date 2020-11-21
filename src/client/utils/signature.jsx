@@ -30,7 +30,7 @@ const sanitize = (data) => {
     return data.blockchain;
   }
 
-  // kairos errors
+  // UnitCare errors
   if (data.Errors) {
     let message = data.Errors.map(error => error.Message).join(", ");
     console.log("Error: "+ message);
