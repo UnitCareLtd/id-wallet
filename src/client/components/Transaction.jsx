@@ -29,7 +29,7 @@ const formatDateTime = timestamp => {
 const getVerificationData = tran => {
     if (tran.verified) {
         const percentageDisplay = Math.round(tran.confidence * 100);
-        let verificationMsg = "Verified by Kairos";
+        let verificationMsg = "Verified by UnitCare";
         if (SHOW_CONFIDENCE_LEVEL) {
             verificationMsg += " (" + percentageDisplay + "%)";
         }

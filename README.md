@@ -1,15 +1,15 @@
 ALPHA Release
 
-# Kairos Identity Wallet™
-#### Kairos Identity Wallet™ for Kairos Identity Token™
+# UnitCare Identity Wallet™
+#### UnitCare Identity Wallet™ for UnitCare Identity Token™
 
-The Identity (ID) Wallet™ is a client-side wallet dApp that implements the Kairos Protocol™ ([Human Identity Interface™](/contracts/HumanIdentity) + [Kairos Face Recognition API](https://www.kairos.com/docs/api)). Users have the ability to store, send, and receive [Kairos Identity (ID) Tokens™](/README.md#kairos-identity-token), as well as issue transaction requests to other ID Wallet™ users.
+The Identity (ID) Wallet™ is a client-side wallet dApp that implements the UnitCare Protocol™ ([Human Identity Interface™](/contracts/HumanIdentity) + [UnitCare Face Recognition API](https://www.unitcare.co/docs/api)). Users have the ability to store, send, and receive [UnitCare Identity (ID) Tokens™](/README.md#unitcare-identity-token), as well as issue transaction requests to other ID Wallet™ users.
 
 Because no existing wallets currently cater to the ID Token™ use cases, it will initially be the primary client interface used for holding and transacting ID Token™. Due to the fact that the ID Wallet™ is available for third-party integrations via an this open source code base, adoption by mobile and traditional web applications is entirely feasible. 
 
 Projects that would benefit from a biometrically verified token transaction system, but don’t necessarily have the resources to create their own, are now able to reap the benefits from such an integration. 
 
-#### Try our alpha release demo: https://wallet.kairos.com/
+#### Try our alpha release demo: https://wallet-demo.unitcare.co/
 
 ## Installation
 
@@ -17,14 +17,14 @@ The app can easily be run either locally or using Docker with the included Docke
 
 The app is basically a single page application, which is viewed at `src/client/index.jsx`.
 
-For the face verification part, you'll need a developer account with Kairos. Sign-up, get your API key via [developer.kairos.com](https://developer.kairos.com), and check your inbox for an activation link.
+For the face verification part, you'll need a developer account with UnitCare. Sign-up, get your API key via [developer.unitcare.co](https://developer.unitcare.co), and check your inbox for an activation link.
 
 You should now have your `APP_ID` and `APP_KEY`.
 
 #### Clone or fork the repo, and git clone via command-line (CLI):
    ```
    cd $HOME/Desktop
-   git clone https://github.com/kairosinc/id-wallet.git
+   git clone https://github.com/UnitCare/id-wallet.git
    ```
 
 ## Running the app on your local system
@@ -130,13 +130,13 @@ docker stop $(docker ps -q)
 
 Note: This will stop all running containers not just this one
 
-# Kairos Identity Token™
+# UnitCare Identity Token™
 
-#### Kairos Identity Token™ and Distribution
+#### UnitCare Identity Token™ and Distribution
 
-Powered by face biometrics and blockchain technology, Kairos plans to create a method of identity verification which allows the user to remain anonymous— because we believe to validate a transaction, businesses only need to know that you are you.
+Powered by face biometrics and blockchain technology, UnitCare plans to create a method of identity verification which allows the user to remain anonymous— because we believe to validate a transaction, businesses only need to know that you are you.
 
-The Kairos Identity (ID) Token™ is the specially designed digital asset of this system, and enables users to reduce the risk of face recognition specific identity theft and increase privacy during secure transactions. [For example: Trading crypto assets]
+The UnitCare Identity (ID) Token™ is the specially designed digital asset of this system, and enables users to reduce the risk of face recognition specific identity theft and increase privacy during secure transactions. [For example: Trading crypto assets]
 
 ## Getting Started
 
@@ -182,7 +182,7 @@ then in a new console window
 $ yarn test
 
 # Using network 'development'.
-#   Contract: KairosIdentityToken
+#   Contract: UnitCareIdentityToken
 #     ✓ should be connected to the correct user account
 #     ...
 
@@ -229,7 +229,7 @@ The application contains a few components:
 
 ### contracts/
 
-`contracts/` contains the the KairosIdentityToken, and it's cascading set of dependent contracts. Also contains a Migrations contract for truffle's migration tools.
+`contracts/` contains the the UnitCareIdentityToken, and it's cascading set of dependent contracts. Also contains a Migrations contract for truffle's migration tools.
 
 ### migrations/
 
@@ -245,4 +245,4 @@ ganache-cli -m "candy maple..."
 
 # Feedback and Getting Help
 
-We'd love to hear feedback from you and we're also here to help if you have any questions — feel free to [email our support team](mailto:support@kairos.com).
+We'd love to hear feedback from you and we're also here to help if you have any questions — feel free to [email our support team](mailto:support@UnitCare.com).
