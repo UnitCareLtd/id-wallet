@@ -80,7 +80,7 @@
         "redux": "^3.7.2",
         "redux-thunk": "^2.2.0",
         "tether": "^1.4.3",
-        "truffle": "^4.1.5",
+        "truffle": "^5.11.5",
         "truffle-hdwallet-provider": "^0.0.3",
         "victory": "^0.25.6",
         "web3": "0.20.6",
